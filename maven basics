@@ -1,0 +1,37 @@
+Maven Basics 
+
+What is Maven ?
+It is a build and dependency management tool . Also it can be reffered to as " Project Management Tool " .
+
+Why Maven ?
+    • Common Interface .
+    • mvn clean install .
+    • It can manage dependencies such as Jar files , servlets .
+    • Repository is used .
+    • Can be reused .
+
+How To Create A Maven Project ?
+* To create a a maven project in cmd line we use " mvn install " command .
+* To create a maven project in eclipse , we simply create a new file and then select 
+" Maven Project " .
+
+Commands Used In Maven Are :
+    • mvn clean : This command cleans the maven project by deleting the target directory .
+    • mvn compile : This command compiles the java source classes of the maven project .
+    • mvn install : This command builds the maven project and installs the project files (JAR, WAR, pom.xml, etc) to the local repository.
+    • mvn deploy : This command is used to deploy the artifact to the remote repository.
+    • mvn package : This command builds the maven project and packages them into a JAR, WAR, etc.
+
+Maven Life Cycle Phases  : 
+A Maven phase represents a stage in the Maven build lifecycle. Each phase is responsible for a specific task.
+Here are some of the most important phases in the default build lifecycle :
+    • validate: check if all information necessary for the build is available
+    • compile: compile the source code
+    • test-compile: compile the test source code
+    • test: run unit tests
+    • package: package compiled source code into the distributable format (jar, war )
+    • integration-test: process and deploy the package if needed to run integration tests
+    • install: install the package to a local repository
+    • deploy: copy the package to the remote repository
+
+
